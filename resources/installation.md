@@ -7,6 +7,7 @@ Below are various tools and programs you need to make mobile apps/follow along w
 Jump to what you need to install: 
 - [Android Studio](#installing-android-studio)
 - [Flutter](#installing-flutter)
+- [Creating an AVD](#creating-an-avd)
 
 # Installing Android Studio
 
@@ -131,3 +132,45 @@ Jump to what you need to install:
 
 8. You are done! :tada: You can click on the "New Flutter Project" in the Android Studio main menu to create a new flutter project.
 
+# Creating an AVD
+
+> :warning: This requires Android Studio (or the AVD manager which you can download at https://developer.android.com/tools/avdmanager)
+
+1. To create an Android Virtual Device (emulator), you must open Android Studio. Once Android Studio is open, click on the three dots in the corner of the main menu. Once you have clicked the three dots, click on "Virtual Device Manager".
+
+<p align="center">
+<img src="../assets/installation/avd-three-dots.png">
+</p>
+<p align="center">Android Studio Dropdown Menu</p>
+
+2. Once the window opens, click on "Create Device".
+
+3. In the phone menu, pick the phone you want to emulate. I picked Nexus 6P, but you should be able to pick anyone you like.
+
+<p align="center">
+<img src="../assets/installation/avd-configuration.png">
+</p>
+<p align="center">AVD Hardware Configuration</p>
+
+4. Once you've selected a phone, you must select a system image. This is basically the Android API you want your phone to run on. It's recommended that you pick a x86_64 image. Once you've decided on the image, simply click the download button (labeled below) next to your desired image.
+
+<p align="center">
+<img src="../assets/installation/avd-api-image.png">
+</p>
+<p align="center">AVD System Image</p>
+
+5. Before you click finish, it's recommended that you select Hardware Acceleration for the graphics rendering. Some phones will not allow this, so do not worry if it's grayed out for you. You can also simply rely on the Automatic configuration.
+
+<p align="center">
+<img src="../assets/installation/avd-select-hardware-graphics.png">
+</p>
+<p align="center">AVD Graphics Rendering</p>
+
+6. Finally, click on Finish and your AVD should start to be created! :tada:
+
+7. You can run your AVD (there is a way to do this in Android Studio itself — we will use that way to test our apps) by clicking on the Play button next to the AVD in your Device Manager.
+
+<p align="center">
+<img src="../assets/installation/avd-actions.png">
+</p>
+<p align="center">AVD Actions</p>
