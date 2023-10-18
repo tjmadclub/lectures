@@ -145,7 +145,7 @@ Jump to what you need to install:
 
 2. Once the window opens, click on "Create Device".
 
-3. In the phone menu, pick the phone you want to emulate. I picked Nexus 6P, but you should be able to pick anyone you like.
+3. In the phone menu, pick the phone you want to emulate. I picked Nexus 6P, but you should be able to pick anything you like.
 
 <p align="center">
 <img src="../assets/installation/avd-configuration.png">
