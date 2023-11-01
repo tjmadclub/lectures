@@ -94,7 +94,9 @@ class _ImageGalleryState extends State<ImageGallery> {
 
 class ImageDetails extends StatefulWidget {
   final List<String> detailUrls = [
-    // urls coming soon
+    "https://raw.githubusercontent.com/tjmadclub/lectures/main/23-24/2023-01-11/assets/detail1.txt",
+    "https://raw.githubusercontent.com/tjmadclub/lectures/main/23-24/2023-01-11/assets/detail2.txt",
+    "https://raw.githubusercontent.com/tjmadclub/lectures/main/23-24/2023-01-11/assets/detail3.txt"
   ];
 
   final String image;
